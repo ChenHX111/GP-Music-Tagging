@@ -1,4 +1,13 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+mtg-jamendo-dataset/gp_features_dark_ALL62_gensize500_20250814_165144/validation_features.csv filter=lfs diff=lfs merge=lfs -text
+E:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/mtg-jamendo-dataset/MTG_Jamendo_ALL62_top500_unique_20250905_202950.csv filter=lfs diff=lfs merge=lfs -text
+E:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/mtg-jamendo-dataset/MTG_Jamendo_E23_top500_unique_20250905_202950.csv filter=lfs diff=lfs merge=lfs -text
+E:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/mtg-jamendo-dataset/mtg_jamendo_feature_groups.csv filter=lfs diff=lfs merge=lfs -text
+E:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/mtg-jamendo-dataset/mtg_jamendo_feature_tsne_coordinates.csv filter=lfs diff=lfs merge=lfs -text
+E:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/GTZAN-data/GTZAN_ALL62_top500_unique_20250905_202835.csv filter=lfs diff=lfs merge=lfs -text
+E:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/GTZAN-data/GTZAN_E23_top500_unique_20250905_202835.csv filter=lfs diff=lfs merge=lfs -text
+E:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/GTZAN-data/gtzan_feature_groups.csv filter=lfs diff=lfs merge=lfs -text
+E:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/GTZAN-data/gtzan_feature_tsne_coordinates.csv filter=lfs diff=lfs merge=lfs -text
 *.ipynb filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
-*.csv filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
