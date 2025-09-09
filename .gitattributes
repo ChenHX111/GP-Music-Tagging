@@ -1,9 +1,1 @@
-*.ipynb filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
-*.csv filter=lfs diff=lfs merge=lfs -text
-*.md filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
-D:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/mtg-jamendo-dataset/gp_features_dark_ALL62_20250814_165144.zip filter=lfs diff=lfs merge=lfs -text
-D:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/mtg-jamendo-dataset/gp_features_dark_ALL62_gensize500_20250814_165144.zip filter=lfs diff=lfs merge=lfs -text
-D:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/mtg-jamendo-dataset/gp_features_dark_E23_20250814_165144.zip filter=lfs diff=lfs merge=lfs -text
-D:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/mtg-jamendo-dataset/gp_features_dark_E23_gensize500_20250814_165144.zip filter=lfs diff=lfs merge=lfs -text
