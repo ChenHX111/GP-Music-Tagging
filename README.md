@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # GP-Music-Tagging
 
 ## Constructing Composite Features for Interpretable Music-Tagging
