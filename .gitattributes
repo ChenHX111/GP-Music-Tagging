@@ -7,3 +7,4 @@ D:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/mtg-jamendo-dataset/gp_features_dark_
 D:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/mtg-jamendo-dataset/gp_features_dark_ALL62_gensize500_20250814_165144.zip filter=lfs diff=lfs merge=lfs -text
 D:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/mtg-jamendo-dataset/gp_features_dark_E23_20250814_165144.zip filter=lfs diff=lfs merge=lfs -text
 D:/Oxford/Extra/ICASSP/Draft_1/Github-Repo/mtg-jamendo-dataset/gp_features_dark_E23_gensize500_20250814_165144.zip filter=lfs diff=lfs merge=lfs -text
+mtg-jamendo-dataset/gp_features_*/** filter=lfs diff=lfs merge=lfs -text
