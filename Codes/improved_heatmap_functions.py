@@ -99,7 +99,7 @@ def plot_half_diagonal_heatmap(cooccur_matrix: pd.DataFrame, performance_matrix:
     sns.heatmap(performance_matrix, mask=combined_mask, annot=show_text, fmt='.3f',
                 cmap='RdYlBu_r', square=True, linewidths=0.5,
                 vmin=vmin, vmax=vmax,
-                cbar_kws={'label': 'Average test_auc', 'shrink': 0.8}, ax=ax2)
+                cbar_kws={'label': 'Average val_auc', 'shrink': 0.8}, ax=ax2)
     ax2.set_title(f'{dataset_name} {feature_set_name}: Base Feature Performance\n(Upper Triangle)',
                   fontsize=font_size+2, fontweight='bold', pad=20)
     ax2.set_xlabel('Base Features', fontsize=14)
@@ -204,7 +204,7 @@ def plot_half_diagonal_heatmap(cooccur_matrix: pd.DataFrame, performance_matrix:
 #     cbar1.ax.tick_params(labelsize=14)
 
 #     cbar2 = plt.colorbar(im2, cax=ax_cbar_right)
-#     cbar2.set_label('Average test_auc', fontsize=14)
+#     cbar2.set_label('Average val_auc', fontsize=14)
 #     cbar2.ax.tick_params(labelsize=14)
 
 #     # Titles and labels
@@ -292,7 +292,7 @@ def plot_combined_triangular_heatmap(cooccur_matrix: pd.DataFrame, performance_m
     cbar1.set_label('Co-occurrence Count', fontsize=22)
     cbar1.ax.tick_params(labelsize=20)
     cbar2 = plt.colorbar(im2, cax=ax_cbar_right)
-    cbar2.set_label('Average test_auc', fontsize=22)
+    cbar2.set_label('Average val_auc', fontsize=22)
     cbar2.ax.tick_params(labelsize=20)
 
     # Title and axis labels
@@ -341,7 +341,7 @@ def plot_enhanced_heatmap(matrix_df: pd.DataFrame, matrix_type: str,
     else:
         cmap = colormap or 'RdYlBu_r'
         fmt = '.4f'
-        cbar_label = 'Average test_auc'
+        cbar_label = 'Average val_auc'
         # Set color scale to span the range of non-zero performance values
         perf_vals = matrix_df.values[matrix_df.values > 0]
         if perf_vals.size > 0:
@@ -407,7 +407,7 @@ def plot_enhanced_operation_feature_heatmap(matrix_df: pd.DataFrame, matrix_type
     else:
         cmap = colormap or 'RdYlBu_r'
         fmt = '.4f'
-        cbar_label = 'Average test_auc'
+        cbar_label = 'Average val_auc'
         # Color scale based on non-zero performance values
         perf_vals = matrix_df.values[matrix_df.values > 0]
         if perf_vals.size > 0:
