@@ -156,15 +156,7 @@ jupyter notebook Codes/MTG_Jamendo_Expressions_Analysis.ipynb
 
 If you use this code in your research, please cite our paper:
 
-```bibtex
-@inproceedings{xue2026constructing,
-  title={Constructing Composite Features for Interpretable Music-Tagging},
-  author={Xue, Chenhao and Hu, Weitao and Wang, Puyu and Chakraborty, Joyraj and Guo, Zhijin and Li, Kang and Shi, Tianyu and Reed, Martin and Thomos, Nikolaos},
-  booktitle={ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  year={2026},
-  organization={IEEE}
-}
-```
+
 
 ## License
 
